@@ -1,4 +1,7 @@
 site_name: Vehicle Mod Documentation
+site_author: MrCrayfish/vehicle-mod-addons
+copyright: All Rights Reserved
+repo_url: https://github.com/MrCrayfish/vehicle-mod-addons
 theme: 
     name: material
 nav: 
