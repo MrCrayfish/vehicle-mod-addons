@@ -1,0 +1,7 @@
+site_name: Vehicle Mod Documentation
+theme: 
+    name: material
+nav: 
+    - About: index.md
+    - Getting Started: getting-started.md
+    - Creating a Vehicle: creating-a-vehicle.md
