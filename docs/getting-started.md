@@ -56,7 +56,7 @@ In your `mods.toml` you'll need to tell Forge that your mod depends on these mod
 
 Now simply refresh gradle and the mods will be deobfuscated and added to the project. You should load up your game once and check the mod list to ensure they have been added. If you run into any problems where the files can't be found, make sure you are using at least Forge `1.15.2-31.2.0` and CurseMaven `2.1.4`
 
-![Mod List](/img/mod_list.png)
+![Mod List](img/mod_list.png)
 
 ## You're Ready
 
