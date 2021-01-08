@@ -26,7 +26,7 @@ Next in your dependencies it's simply a matter of adding the Obfuscate library a
 ```gradle
 dependencies {
 	compile fg.deobf('curse.maven:obfuscate-289380:3148131') // 0.5.1
-	compile fg.deobf('curse.maven:mrcrayfishs-vehicle-mod-286660:3103940') // 0.45.2
+	compile fg.deobf('curse.maven:mrcrayfishsvehiclemod-286660:3103940') // 0.45.2
 }
 ```
 
