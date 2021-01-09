@@ -11,29 +11,22 @@ To begin you will first need to create a new Forge modding environment. This tut
 
 The next step is to add the Vehicle Mod into your modding environment. In order for you to add the Vehicle Mod though you will need to also add it's parent library Obfuscate. In order to do this we'll be using the [CurseMaven](https://github.com/Wyn-Price/CurseMaven) plugin by Wyn-Price. This plugin makes it easy to depend on [CurseForge](https://www.curseforge.com/minecraft/mc-mods) hosted mods.
 
-In your `build.gradle` you'll need to add the following into your build script, then simply apply the plugin.
+In your `build.gradle` you'll need to add the following into your repositories.
 
 ```gradle
-buildscript {
-  repositories {
-    maven {
-      url "https://plugins.gradle.org/m2/"
-    }
-  }
-  dependencies {
-    classpath "com.wynprice.cursemaven:CurseMaven:2.1.4"
-  }
+repositories{
+	maven {
+		url "https://www.cursemaven.com"
+	}
 }
-
-apply plugin: "com.wynprice.cursemaven"
 ```
 
 Next in your dependencies it's simply a matter of adding the Obfuscate library and the Vehicle Mod. You'll want to use `fg.deobf` otherwise it won't work in a modding environment.
 
 ```gradle
 dependencies {
-	compile fg.deobf('curse.maven:obfuscate:2946425') // 0.44.0
-	compile fg.deobf('curse.maven:mrcrayfishs-vehicle-mod:2963019') // 0.4.3
+	compile fg.deobf('curse.maven:obfuscate-289380:3148131') // 0.5.1
+	compile fg.deobf('curse.maven:mrcrayfishsvehiclemod-286660:3103940') // 0.45.2
 }
 ```
 
